@@ -88,7 +88,7 @@
                     <driver>org.postgresql.Driver</driver>
                     <url>jdbc:postgresql://localhost:5432/test</url>
                     <user>postgres</user>
-                    <password>Armin#123</password>
+                    <password>password</password>
                     <baselineOnMigrate>true</baselineOnMigrate>
                     <schemas>public</schemas>
                     <locations>
@@ -112,7 +112,7 @@
                                 <driver>org.postgresql.Driver</driver>
                                 <url>jdbc:postgresql://localhost:5432/test</url>
                                 <user>postgres</user>
-                                <password>Armin#123</password>
+                                <password>password</password>
                             </jdbc>
                             <generator>
                                 <database>
